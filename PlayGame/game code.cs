@@ -37,7 +37,7 @@ namespace PlayGame
             countdown1Player.Play();
             Refresh();
             Thread.Sleep(1000);
-
+            //
            //countdown 2 label and sound
             countdownLabel.Text = "Game will begin in 2...";
             SoundPlayer countdown2Player = new SoundPlayer(Properties.Resources.Door_Bell_SoundBible_com_1986366504);
